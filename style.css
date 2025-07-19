@@ -22,17 +22,17 @@ body{
     color: white;
 }
 
-header{
+header {
     margin-top: 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
+    padding: 1rem 0;
     background-color: transparent;
     filter: drop-shadow(10px);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 100;
 }
@@ -49,10 +49,17 @@ header{
     transform: scale(1.1);
 }
 
-nav a{
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav a {
     font-size: 1.8rem;
     color: white;
-    margin-left: 4rem;
+    margin: 0 1.5rem;
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
@@ -288,18 +295,18 @@ span{
 
 .services {
     padding: 60px 20px;
-    background: #f9f9f9;
+    background: radial-gradient(circle at 60% 40%, rgba(180, 0, 0, 0.25) 0%, rgba(60, 0, 0, 0.5) 60%, rgba(0,0,0,1) 100%);
 }
 .services h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #222;
+    color: #ed0808;
 }
 .services-list {
     max-width: 900px;
     margin: 0 auto;
-    background: #fff;
+    background: #a60808;
     border-radius: 16px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.07);
     padding: 32px 24px;
